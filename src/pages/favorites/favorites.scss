@@ -1,0 +1,41 @@
+.favorites {
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.fav-card__img {
+	max-width: 200px;
+}
+
+
+.fav__cards {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.fav__card {
+    margin: 20px 20px;
+    cursor: pointer;
+    width: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 12px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 12px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 12px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    transition: all ease 0.3s 0s;
+    color: #000;
+}
+
+.fav__card:hover {
+    transform: scale(1.1);
+    z-index: 10px;
+}
+
+.fav-card__title {
+    font-size: 20px;
+    font-weight: 500;
+}
